@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>Personal Portfolio Website</title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+<ul>
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<div class="header-text">
+<p>Portfolio.</p>
+<h1>Hello it's me,<br> Loka Gangamani. </h1>
+<P>Student From Computer Science.</p>
+<p>Desired To Became a Frontend developer.</p>
+</div>
+<div class="image-content">
+<img src="image7/im.jpg"alt="Loka's photo"/>
+</div>
+</div>
+</div>
+<!-------------------------about---------------------!>
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="image7/im.jpg">
+</div>
+<div class="about-col-2">
+<h1 class="sub-title">About Me.</h1>
+<p>I am a dedicated student from  computer science, student with a passion for developing innovative software solutions or exploring new technologies.Currently pursuing Bachelor's in Computer Science at kakatiya institute of technology and science for woman,I strive to combine theoretical knowledge with practical experiance to make a meaningfull impact.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('academic exposure')">Academic Exposure</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+<ul>
+<li><span>UI/UX</span><br>Designing web/App interfaces<br>Frontend Development</li>
+<li><span>Web Development</span><br> web app Development<br>Backend Development</li>
+<li><span>App Development</span><br>Building Android/IOS apps<br>Fullstack Development</li>
+</ul>
+</div>
+<div class="tab-contents" id="academic exposure">
+<ul>
+<li>Web Designe<br></li>
+<li>Frontend Developer</li>
+<li>Backend Developer</li>
+<li>Fullstack Developer</li>
+</ul>
+</div>
+<div class="tab-contents" id="education">
+<ul>
+<li><span>2018-2019</span><br>Schooling</li>
+<li><span>2019-2021</span><br>Intermediate</li>
+<li><span>2021-2025</span><br>B.Tech in Computer Science</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!---------------------------services-------------------!>
+<div id="services">
+<div class="container">
+<h1 class="sub-title">My Services.</h1>
+<div class="services-list">
+<div>
+<i class="fa-solid fa-code"></i>
+<h2>Web Design.</h2>
+<p>Web Design refers to the process of creating and designing the visual aesthetic,layout,and overall user experience of websites.It combines elements of graphic design,user interface design,and user experience principles to create engaging,functional,and visually appealing websites.Web design involves working with typography,color schemes,images,navigation,structures,and responsive design techniques to ensure websites are accessible and optimized for various devices and screen size.</p>
+<a href="#">Learn more.</a>
+</div>
+<div>
+<i class="fa-solid fa-code"></i>
+<h2>Frontend Developer.</h2>
+<p>Frontend Developer is a software engineer who specializes in designing and implementing the user-facing components of websites and web applications.Their primary role is to create intuitive,visually appealing,and responsive interfaces that ensure an excellent user experience.Frontend developers are crucial for delivering visually appealing and functional digital products,bridging the gap between user needs and backend services.</p>
+<a href="#">Learn more.</a>
+</div>
+<div>
+<i class="fa-brands fa-app-store"></i>
+<h2>Backend Developer.</h2>
+<p>Backend Developer is a software engineer who specializes in designing,developing, and maintaining and server-side logic,databases,and application infrastructure that power web and mobile applications.Their work ensure that the system operates efficiently,securely and reliably.Backend Developers are essential for building robust,secure and scalable systems that form the backbone of digital applications.</p>
+<a href="#">Learn more.</a>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------portfolio------------------!>
+<div id="portfolio">
+<div class="container">
+<h1 class="sub-title">My Work.</h1>
+<div class="work-list">
+<div class="work">
+<img src="image7/work-1.jpg">
+<div class="layer">
+<h3>Ice-cream store</h3>
+<p>Yummiest ice-cream in the market with natural sweetness without any preservatives and artificial flavours.</p>
+</div>
+</div>
+<div class="work">
+<img src="image7/work-3.jpg">
+<div class="layer">
+<h3>Organic foods</h3>
+<p>Organic foods without any pesticides and naturally grown without using any chemicals.</p>
+</div>
+</div>
+<div class="work">
+<img src="image7/work-4.jpg">
+<div class="layer">
+<h3>Organic foods</h3>
+<p>Organic foods without any pesticides and naturally grown without using any chemicals.</p>
+</div>
+</div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+<!-------------------------contact-----------------------!>
+<div id="contact">
+<div clas="container">
+<div class="row">
+<div class="contact-left">
+<h1 class="sub-title">Contact Me.</h1>
+<p><i class="fas fa-paper-plane"></i>* lokaniharika76@gmail.com.</p>
+<p><i class="fas-fa-phone-square-alt"></i>*9856412223.</p>
+<div class="social-icons">
+<a href=""><i class="fab fa-facebook"></i></a>
+<a href=""><i class="fab fa-twitter-square"></i></a>
+<a href=""><i class="fab fa-instagram"></i></a>
+<a href=""><i class="fab fa-linkdin"></i></a>
+</div>
+<a href="image7/My Resume.pdf" download class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form>
+<input type="text"name="Name" placeholder="Your Name"required>
+<input type="email"name="email" placeholder="Your Email"required>
+<textarea type="Message"rows="6" placeholder="Your Message"></textarea>
+<botton type="submit" class="btn btn2">submit</botton>
+</form>
+</div>
+</div>
+</div>
+<div class="copyright">
+<p>Copyright @ Gangamani, Made with love.</p>
+</div>
+</div>
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+for(tabcontents of tabcontents){
+tabcontents.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+</body>
+</html>
